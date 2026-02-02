@@ -2,12 +2,12 @@
 
 #include <stdio.h>
 
-int main(){
+int main() {
     int x,y;
     int temp;
 
     printf("Enter two numbers:");
-    scandf("%d %d", &x, &y);
+    scanf("%d %d", &x, &y);
 
     printf("Value of x before swap is %d and y is %d\n", x,y);
 
