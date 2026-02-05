@@ -8,7 +8,7 @@ int main (){
 int num;
 int result;
 
-prinmtf("Enter a number:");
+printf("Enter a number:");
 scanf("%d", &num);
 
 result= !(num & (num -1));
